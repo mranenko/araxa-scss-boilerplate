@@ -1,13 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&display=swap");
 :root {
-  --color-black: #000000;
-  --color-whie: --white;
+  --color-black: #404346;
+  --color-white: #fffcfc;
 }
 
 :root {
-  --text-font-family: sans-serif;
+  --text-font-family: "Heebo", sans-serif;
+  --text-font-size: 1rem;
+  --text-font-weight: 400;
+  --text-letter-spacing: .5px;
   --text-line-height: 1.5;
-  --text-size: 1rem;
-  --title-font-family: sans-serif;
+  --title-font-family: "Heebo", sans-serif;
+  --title-font-weight: 600;
+  --title-letter-spacing: .5px;
   --title-line-height: 1.125;
 }
 
@@ -26,7 +31,9 @@ body {
   color: var(--color-black);
   font-family: var(--text-font-family);
   font-size: var(--text-font-size);
+  font-weight: var(--text-font-weight);
   line-height: var(--text-line-height);
+  letter-spacing: var(--text-letter-spacing);
 }
 
 a {
@@ -38,7 +45,18 @@ a {
 h1, h2, h3, h4, h5, h6 {
   color: inherit;
   font-family: var(--title-font-family);
+  font-weight: var(--title-font-weight);
   line-height: var(--title-line-height);
+  letter-spacing: var(--title-letter-spacing);
+  margin: 0 0 0.75rem;
+}
+
+p {
+  margin: 0 0 0.75rem;
+}
+
+main.main {
+  padding: 2rem;
 }
 
 /*# sourceMappingURL=index.css.map */

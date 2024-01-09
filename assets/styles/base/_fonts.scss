@@ -1,8 +1,14 @@
-:root {
-  --text-font-family: sans-serif;
-  --text-line-height: 1.5;
-  --text-size: 1rem;
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&display=swap');
 
-  --title-font-family: sans-serif;
+:root {
+  --text-font-family: 'Heebo', sans-serif;
+  --text-font-size: 1rem;
+  --text-font-weight: 400;
+  --text-letter-spacing: .5px;
+  --text-line-height: 1.5;
+
+  --title-font-family: 'Heebo', sans-serif;
+  --title-font-weight: 600;
+  --title-letter-spacing: .5px;
   --title-line-height: 1.125;
 }
