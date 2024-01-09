@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "sass": "^1.69.7"
+  },
+  "engines": {
+    "node": ">=20.10.0",
+    "npm": ">=10.2.5"
+  },
+  "scripts": {
+    "sass": "sass --watch assets/styles",
+    "server": "live-server --open=/ --port=20242",
+    "start": "npm run sass & npm run server"
+  }
+}

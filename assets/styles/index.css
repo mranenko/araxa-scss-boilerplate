@@ -1,0 +1,44 @@
+:root {
+  --color-black: #000000;
+  --color-whie: --white;
+}
+
+:root {
+  --text-font-family: sans-serif;
+  --text-line-height: 1.5;
+  --text-size: 1rem;
+  --title-font-family: sans-serif;
+  --title-line-height: 1.125;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font: 400 16px sans-serif;
+}
+
+body {
+  background: var(--color-white);
+  color: var(--color-black);
+  font-family: var(--text-font-family);
+  font-size: var(--text-font-size);
+  line-height: var(--text-line-height);
+}
+
+a {
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: inherit;
+  font-family: var(--title-font-family);
+  line-height: var(--title-line-height);
+}
+
+/*# sourceMappingURL=index.css.map */
